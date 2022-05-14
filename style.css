@@ -213,6 +213,9 @@
       /* Make the element visible */
       visibility: visible; 
   }
+.social{
+    filter: invert(100%) sepia(100%) saturate(100%)  brightness(100%) contrast(100%)
+}
   
   /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
   @keyframes slide {
